@@ -18,7 +18,7 @@ If you are just learning how to program, I strongly recommend checking out [Scra
 
 ## Coding Challenges
 
-### Easy
+### Getting Started
 
 1. What is your favorite color? "tweak" the colors in crazy waves (01_Positions/crazyWaves) till it's your favorite color.
 
@@ -29,10 +29,10 @@ If you are just learning how to program, I strongly recommend checking out [Scra
 5. Look a the tree grow example (03_Science/treeGrow). Try whistling at it and see what happens. Try changing the color of the tree using tweak mode.
 5. "Comment" and "uncomment" something in the code. What does it change? 
 
-### Medium 
+### Going Deeper
 
 1. What is the smiley example (01_Positions/smiley) missing? Freckles? Ears? ... Use simple shapes from the [processing reference] (https://processing.org/reference/) to add a new feature. 
 
 2. Look at the smileyGenerator example (02_Randomness/smileyGenerator). Try changing it so it only produces smilies with various shades of red faces. 
 
-3. Explore the  
+3. Explore the birds example (03_Science/birds). Try tweeking the behavior and the color of the flock. 
