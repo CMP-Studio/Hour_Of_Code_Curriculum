@@ -12,7 +12,7 @@ Credits:
 
 ![pictures of code drawings](https://github.com/crecord/DrawingWithCode-ScienceCenter/blob/master/examples.png)
 
-You can download all these examples by going to github.com/CMP-Studio/Hour_Of_Code_Curriculum/ and pressing the "Download Zip" button on the right on this web page. You will also need Processing, which you can [download](https://processing.org/download/) at processing.org/download/.
+You can download all these examples by going to "github.com/CMP-Studio/Hour_Of_Code_Curriculum/" and pressing the "Download Zip" button on the right on this web page. You will also need Processing, which you can [download](https://processing.org/download/) at processing.org/download/.
 
 If you are just learning how to program, I strongly recommend checking out [Scratch!](https://scratch.mit.edu/)scratch.mit.edu
 
