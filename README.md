@@ -3,7 +3,7 @@
 
 
 [Drawing with Code](http://carolinerecord.com/hci/drawingWithCode.html) is intended to expose participants to how to be creative with code. 
-There are a bunch of fun examples to play with! There is everything from moving a puppet around with your face to drawings that dance around when you scream at them.
+There are a bunch of fun examples to play with! There is everything from moving a puppet around with your face to drawings that dance around when you scream at them. 
 
 Credits:
 - crazy waves is by Casey Reas, Chandler McWilliams, and LUST
@@ -12,9 +12,9 @@ Credits:
 
 ![pictures of code drawings](https://github.com/crecord/DrawingWithCode-ScienceCenter/blob/master/examples.png)
 
-You can download all these examples by pressing the "Download Zip" button on the right on this web page. You will also need Processing, which you can [download here](https://processing.org/download/).
+You can download all these examples by going to github.com/CMP-Studio/Hour_Of_Code_Curriculum/ and pressing the "Download Zip" button on the right on this web page. You will also need Processing, which you can [download](https://processing.org/download/) at processing.org/download/.
 
-If you are just learning how to program, I strongly recommend checking out [Scratch!](https://scratch.mit.edu/) 
+If you are just learning how to program, I strongly recommend checking out [Scratch!](https://scratch.mit.edu/)scratch.mit.edu
 
 ## Coding Challenges
 
