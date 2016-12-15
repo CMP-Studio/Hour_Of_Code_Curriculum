@@ -37,12 +37,12 @@ float nostrils;
 //float pointx;
 //float pointy;
 
-PImage[] lips= new PImage[7];
-PImage[] nose= new PImage[9];
-PImage[] leftEye= new PImage[11];
-PImage[] rightEye= new PImage[11];
-PImage[] leftBrow= new PImage[5];
-PImage[] rightBrow= new PImage[5];
+PImage[] lips= new PImage[15];
+PImage[] nose= new PImage[20];
+PImage[] leftEye= new PImage[21];
+PImage[] rightEye= new PImage[21];
+PImage[] leftBrow= new PImage[17];
+PImage[] rightBrow= new PImage[17];
 
 int lipsIndex; 
 int noseIndex; 
@@ -106,16 +106,16 @@ void draw() {
     translate(map(posePosition.x, 0,640,0, width) , map(posePosition.y,0,480,0,height));
     scale(poseScale);
     noFill();
-    image (leftEye[eyeIndex], -20, eyeLeft * -9, 20, 7);
+    image (leftEye[eyeIndex], -20, eyeLeft * -9, 23, 12);
     // ellipse(-20, eyeLeft * -9, 20, 7);
     // ellipse(20, eyeRight * -9, 20, 7);
-    image (rightEye[eyeIndex], 20, eyeRight * -9, 20, 7);
+    image (rightEye[eyeIndex], 20, eyeRight * -9, 23, 12);
     //ellipse(0, 20, mouthWidth* 3, mouthHeight * 3);
     image(lips[lipsIndex], 0, 20, mouthWidth* 3, mouthHeight * 5 ); 
     imageMode(CENTER);
     image(nose[noseIndex], 0, -15, 20, 35); 
-    image(leftBrow[browIndex], -20, eyebrowLeft * -5, 25, 5); 
-    image(rightBrow[browIndex], 20, eyebrowRight * -5, 25, 5);
+    image(leftBrow[browIndex], -20, eyebrowLeft * -5, 25, 7); 
+    image(rightBrow[browIndex], 20, eyebrowRight * -5, 25, 7);
   } else {
     println ("not found");
   }
@@ -166,7 +166,7 @@ public void mouthWidthReceived(float w) {
 
 public void mouthHeightReceived(float h) {
   //println("mouth height: " + h);
-  mouthHeight = h;
+  mouthHeight = h * 1.3;
 }
 
 public void eyeLeftReceived(float f) {
